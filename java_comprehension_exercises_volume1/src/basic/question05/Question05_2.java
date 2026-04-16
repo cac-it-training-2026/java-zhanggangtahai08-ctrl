@@ -11,6 +11,21 @@ public class Question05_2 {
 	public static void main(String[] args) throws IOException {
 
 		// TODO:ここに実装
+		int numberGroup[] = { 3, 5, 7, 9 };
+		switch (numberGroup[3]) {
+		case 3:
+			System.out.println("４番目の要素の値は３です。");
+			break;
+		case 5:
+			System.out.println("４番目の要素の値は５です。");
+			break;
+		case 7:
+			System.out.println("４番目の要素の値は７です。");
+			break;
+		default:
+			System.out.println("４番目の要素の値は３、５、７以外の値です。");
+			break;
+		}
 
 	}
 }
